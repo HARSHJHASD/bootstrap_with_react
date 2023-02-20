@@ -1,12 +1,22 @@
+
 import data from './data';
 import Card from './Card';
 
+
+
+
+
 function App() {
   return (
-    
     <div>
       <div>
-      <h1>Personal Digital Assistant.</h1>
+      <section class="hero is-primary">
+        <div class="hero-body">
+          <p class="title">
+          Personal Digital Assistant
+          </p>
+        </div>
+      </section>
       </div>
         <div className="container">
       <div className="row">
@@ -19,6 +29,7 @@ function App() {
        })
      }
      </div>
+ 
      </div>
     </div>
   )
